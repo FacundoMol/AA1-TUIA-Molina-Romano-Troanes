@@ -1,0 +1,13 @@
+# Ignorar entornos virtuales de Python
+autosklearn_env/
+venv/
+.venv/
+*/bin/python # Ignorar enlaces simbólicos a Python (causaron el error)
+
+# Ignorar archivos comunes de Python y caché
+__pycache__/
+*.pyc
+
+# Ignorar archivos de logs, datos generados, etc.
+*.log
+*.csv*

@@ -1,48 +1,10 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-*.env
-*.venv
-env/
+# Ignorar el entorno virtual de autosklearn
+autosklearn_env/
+
+# Ignorar otros entornos virtuales comunes
 venv/
-ENV/
-env.bak/
-venv.bak/
+.venv/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Logs
-*.log
-
-# Data files
-# *.csv
-*.tsv
-*.xls
-*.xlsx
-
-# Environment files
-.env
-
-# Build
-build/
-dist/
-*.egg-info/
-
-# Others
-*.sqlite3
-*.db
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
